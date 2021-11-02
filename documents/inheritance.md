@@ -55,7 +55,7 @@
 >    animal.eat();
 >    ```
 >
->    여기서 `Animal animal = cat;` 에서 암시적 __upcasting__이 발생했다.
+>    여기서 `Animal animal = cat;` 에서 암시적 __upcasting__ 이 발생했다.
 >
 >    명시적으로 할 수도 있지만 컴파일러가 `Cat` 이 `Animal` 임을 알기 때문에 그러지 않아도 된다.
 >
