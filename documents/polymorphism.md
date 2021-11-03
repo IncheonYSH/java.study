@@ -9,7 +9,7 @@
 ![](polymorphism/poly1.png)
 
 현재 프로그램의 구조는 위와 같다.
-이를 사용하는 클래스는 다음과 같다.
+이를 `EmployeeListService` 를 사용하는 클래스는 다음과 같다.
 
 ```java
 public class EmployeeListServiceTest{
