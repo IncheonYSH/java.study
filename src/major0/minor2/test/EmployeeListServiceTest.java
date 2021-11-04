@@ -44,14 +44,13 @@ public class EmployeeListServiceTest {
 		service.showAll();
 		System.out.println("===================");
 
-		service.findEmployees();
 		service.showAll();
 		System.out.println("===================");
 
 		System.out.println("======================== 2. delete ================================== ");
 		service.deleteEmployee("111");
 
-		service.findEmployees("111");
+		service.findByEmpId("111");
 
 		System.out.println("========================");
 	}

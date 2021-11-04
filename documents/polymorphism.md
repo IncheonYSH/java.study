@@ -1,4 +1,4 @@
-## 다형성(major0.minor3)
+## 다형성(polymorphism)
 
 * 역할과 구현을 분리한다.
 * 인터페이스를 구현한 객체 인스턴스를 실행 시점에 유연하게 변경할 수 있다.
@@ -9,7 +9,7 @@
 ![](polymorphism/poly1.png)
 
 현재 프로그램의 구조는 위와 같다.
-이를 `EmployeeListService` 를 사용하는 클래스는 다음과 같다.
+ `EmployeeListService` 를 사용하는 `EmployeeListServiceTest` 클래스는 다음과 같다.
 
 ```java
 public class EmployeeListServiceTest{
@@ -32,7 +32,7 @@ public class EmployeeListServiceTest{
 
 ### 데이터 주도 설계의 한계
 
-여기까지의 프로그램은 __'객체가 포함하는 데이터가 무엇인가'__ 에 집중해서 설계되었다. 설계 시작부터 데이터에 관해 결정해야 했고, 내부 __구현을 이른 시기에 하게 된다__.
+여기까지의 프로그램은 __'객체가 포함하는 데이터가 무엇인가'__ 에 집중해서 설계되었다. 설계 시작부터 데이터에 관해 결정해야 했고, __내부 구현을 이른 시기에 하게 된다__.
 
 > vo 와 Service 클래스의 필드를 먼저 정의하면서 프로그램을 작성해 왔고 내부 구현도 비슷한 시점에 이루어졌다.
 
@@ -139,7 +139,7 @@ public class EmployeeListServiceTest{
 
 그러면 `EmployeeListServiceTest` 입장에서 `MemoryEmployeeListService` 와 `DbEmployeeListService` 는 __동일한 역할을 수행하므로 차이가 없다__.
 
-즉, `addEmployee` 등의 메시지(메서드)만 이해할 수 있으면 __인스턴스의 타입은 상관이 없게 되며, 역할(인터페이스)을 통해 다형적으로 협력할 수 있게 되었다__. 
+즉, `addEmployee` 등의 메시지(메서드)만 이해할 수 있으면 __인스턴스의 타입은 상관이 없게 되며, 역할(인터페이스)을 통해 다형적으로 협력할 수 있다__. 
 
 
 

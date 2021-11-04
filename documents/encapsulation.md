@@ -1,4 +1,4 @@
-## 캡슐화(major0.minor1)
+## 캡슐화(encapsulation)
 
 * 다른 클래스에서의 필드나 메서드에 대한 직접적인 접근을 제한한다.
 * 구현 내용을 은닉하고 메서드를 통해 필드에 접근한다.
@@ -65,7 +65,7 @@ employeeService.engineerList[employeeService.engineerCount++] = engineer;
   employeeService.engineerList[11] = Engineer1;
   ```
 
-따라서 다음과 같이 __캡슐화(major0.minor1)__ 한다.
+따라서 다음과 같이 __캡슐화(encapsulation)__ 한다.
 
 변경사항은 다음과 같다.
 

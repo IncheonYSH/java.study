@@ -23,7 +23,8 @@ public class MemoryEmployeeListService implements EmployeeListService {
 		// 기본 constructor
 	}
 
-	private Optional<Employee> findByEmpId(String empId) {
+	@Override
+	public Optional<Employee> findByEmpId(String empId) {
 		return list
 				.stream()
 				.filter(employee -> employee.getEmpId().equals(empId))
@@ -51,17 +52,6 @@ public class MemoryEmployeeListService implements EmployeeListService {
 				break;
 			}
 		}
-	}
-	
-	public ArrayList<Employee> findEmployees(String addr) {
-		return list
-				.stream()
-				.filter(employee -> employee.getAddr().equals(addr))
-				.collect(Collectors.toCollection(ArrayList::new));
-	}
-	
-	@Override
-	public void findEmployees() {
 	}
 
 	@Override

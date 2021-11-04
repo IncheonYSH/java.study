@@ -8,13 +8,21 @@
 * ### ver 0.1.0
   
   * [x] [Encapsulation](./documents/encapsulation.md)
+  
 * ### ver 0.2.0
   
   * [x] [Inheritance](./documents/inheritance.md) + Singleton
+  
 * ### ver 0.3.0
   
   * [x] [Polymorphism](./documents/polymorphism.md)
-  * [ ] [Java Collection api](./documents/collection.md)
+  * [ ] [Java Collection Api](./documents/collection.md)
+  
+* ### ver 0.4.0
+
+  - [x] [Layered Architecture Pattern](./documents/layeredpattern.md)
+  
+  - [ ] [Database](./documents/database.md)
 
 <br>
 

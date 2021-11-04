@@ -4,11 +4,17 @@ import major0.minor3.service.EmployeeListService;
 import major0.minor3.vo.Employee;
 
 import java.util.ArrayList;
+import java.util.Optional;
 
 public class DbEmployeeListService implements EmployeeListService {
     @Override
     public void addEmployee(Employee e) {
 
+    }
+
+    @Override
+    public Optional<Employee> findByEmpId(String emplId) {
+        return Optional.empty();
     }
 
     @Override
@@ -23,16 +29,6 @@ public class DbEmployeeListService implements EmployeeListService {
 
     @Override
     public void showAll() {
-
-    }
-
-    @Override
-    public ArrayList<Employee> findEmployees(String addr) {
-        return null;
-    }
-
-    @Override
-    public void findEmployees() {
 
     }
 }
