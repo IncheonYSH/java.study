@@ -41,7 +41,7 @@
 
 이를 위해 다음과 같이 __계층형 아키텍처(layered architecture)__ 를 적용하고 기존 설계를 변경하였다.
 
-![](layeredpattern/architecture2.PNG)
+<img src="layeredpattern/architecture2.PNG" style="zoom:80%;" />
 
 * Business layer: 비즈니스 로직을 수행하는 부분이다.
 
