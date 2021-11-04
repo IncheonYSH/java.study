@@ -15,11 +15,16 @@
 public class EmployeeListServiceTest{
     EmployeeListService service = EmployeeListService.getInstance();
     
-    Manager m1 = new Manager("111", "manager1", "addr1", 500, "dept1");
-    Manager m2 = new Manager("222", "manager2","addr2",400,"dept2");
-    
-    service.addEmployee(m1);
-    service.addEmployee(m2);    
+    public void employeeTest(){
+        Manager m1 = new Manager("111", "manager1", "addr1", 500, "dept1");
+        Manager m2 = new Manager("222", "manager2","addr2",400,"dept2");
+
+        service.addEmployee(m1);
+        service.addEmployee(m2);
+        /*
+        * 이하 생략
+        */
+    }
 }
 ```
 
@@ -115,21 +120,26 @@ __방법__
 
 이제 이를 `EmployeeListService` 라는 __책임(역할)__ 을 수행하는 __인터페이스__ 로 교체한다.
 
+```java
+public class EmployeeListServiceTest{
+    private static EmployeeListService service = EmployeeListService.getInstance();
+    
+    public void employeeTest(){
+        Manager m1 = new Manager("111", "manager1", "addr1", 500, "dept1");
+        Manager m2 = new Manager("222", "manager2","addr2",400,"dept2");
+
+        service.addEmployee(m1);
+        service.addEmployee(m2);    
+        /*
+        * 이하 생략
+        */
+    }
+}
+```
+
 그러면 `EmployeeListServiceTest` 입장에서 `MemoryEmployeeListService` 와 `DbEmployeeListService` 는 __동일한 역할을 수행하므로 차이가 없다__.
 
 즉, `addEmployee` 등의 메시지(메서드)만 이해할 수 있으면 __인스턴스의 타입은 상관이 없게 되며, 역할(인터페이스)을 통해 다형적으로 협력할 수 있게 되었다__. 
-
-```java
-public class EmployeeListServiceTest{
-    EmployeeListService service = EmployeeListService.getInstance();
-    
-    Manager m1 = new Manager("111", "manager1", "addr1", 500, "dept1");
-    Manager m2 = new Manager("222", "manager2","addr2",400,"dept2");
-    
-    service.addEmployee(m1);
-    service.addEmployee(m2);    
-}
-```
 
 
 
