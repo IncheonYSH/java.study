@@ -5,11 +5,14 @@
 
 ## Roadmap
 
-* __ver 0.1.0__
+* ### ver 0.1.0
+  
   * [x] [Encapsulation](./documents/encapsulation.md)
-* __ver 0.2.0__
+* ### ver 0.2.0
+  
   * [x] [Inheritance](./documents/inheritance.md) + Singleton
-* __ver 0.3.0__
+* ### ver 0.3.0
+  
   * [x] [Polymorphism](./documents/polymorphism.md)
   * [ ] [Java Collection api](./documents/collection.md)
 
