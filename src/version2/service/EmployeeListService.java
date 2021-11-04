@@ -1,6 +1,6 @@
-package inheritance.service;
+package version2.service;
 
-import inheritance.vo.Employee;
+import version2.vo.Employee;
 
 public class EmployeeListService {
 	// 싱글톤

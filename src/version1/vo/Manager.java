@@ -1,4 +1,4 @@
-package encapsulation.vo;
+package version1.vo;
 
 public class Manager {
     private String empId;

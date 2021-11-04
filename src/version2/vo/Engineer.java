@@ -1,4 +1,4 @@
-package polymorphism.vo;
+package version2.vo;
 
 public class Engineer extends Employee{
 	String tech;

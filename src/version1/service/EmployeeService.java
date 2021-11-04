@@ -1,9 +1,7 @@
-package encapsulation.service;
+package version1.service;
 
-import com.sun.xml.internal.ws.api.pipe.Engine;
-import encapsulation.vo.Engineer;
-import encapsulation.vo.Manager;
-import inheritance.vo.Employee;
+import version1.vo.Engineer;
+import version1.vo.Manager;
 
 public class EmployeeService {
     private Engineer[] engineerList;

@@ -1,4 +1,4 @@
-package inheritance.vo;
+package version3.vo;
 
 public class Engineer extends Employee{
 	String tech;

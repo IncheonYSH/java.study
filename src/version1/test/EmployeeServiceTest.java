@@ -1,7 +1,7 @@
-package encapsulation.test;
+package version1.test;
 
-import encapsulation.service.EmployeeService;
-import encapsulation.vo.Engineer;
+import version1.service.EmployeeService;
+import version1.vo.Engineer;
 
 public class EmployeeServiceTest {
     public static void main(String[] args) {

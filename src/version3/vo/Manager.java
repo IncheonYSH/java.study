@@ -1,4 +1,4 @@
-package inheritance.vo;
+package version3.vo;
 
 public class Manager extends Employee{
 	

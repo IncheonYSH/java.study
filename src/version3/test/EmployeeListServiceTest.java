@@ -1,9 +1,9 @@
-package polymorphism.test;
+package version3.test;
 
-import polymorphism.service.EmployeeListService;
-import polymorphism.service.impl.MemoryEmployeeListService;
-import polymorphism.vo.Engineer;
-import polymorphism.vo.Manager;
+import version3.service.EmployeeListService;
+import version3.service.impl.MemoryEmployeeListService;
+import version3.vo.Engineer;
+import version3.vo.Manager;
 
 public class EmployeeListServiceTest {
 	//1. Service

@@ -1,4 +1,4 @@
-package polymorphism.vo;
+package version2.vo;
 
 import java.util.Objects;
 
