@@ -1,4 +1,4 @@
-package version3.vo;
+package major0.minor3.vo;
 
 public class Engineer extends Employee{
 	String tech;

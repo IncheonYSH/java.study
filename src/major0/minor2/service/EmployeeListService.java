@@ -1,6 +1,6 @@
-package version2.service;
+package major0.minor2.service;
 
-import version2.vo.Employee;
+import major0.minor2.vo.Employee;
 
 public class EmployeeListService {
 	// 싱글톤

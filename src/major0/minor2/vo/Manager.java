@@ -1,4 +1,4 @@
-package version2.vo;
+package major0.minor2.vo;
 
 public class Manager extends Employee{
 	

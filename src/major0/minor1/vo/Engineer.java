@@ -1,4 +1,4 @@
-package version1.vo;
+package major0.minor1.vo;
 
 public class Engineer {
     private String empId;

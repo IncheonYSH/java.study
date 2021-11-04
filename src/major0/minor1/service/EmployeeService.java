@@ -1,7 +1,7 @@
-package version1.service;
+package major0.minor1.service;
 
-import version1.vo.Engineer;
-import version1.vo.Manager;
+import major0.minor1.vo.Engineer;
+import major0.minor1.vo.Manager;
 
 public class EmployeeService {
     private Engineer[] engineerList;

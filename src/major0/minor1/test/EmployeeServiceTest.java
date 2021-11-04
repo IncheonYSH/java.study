@@ -1,7 +1,7 @@
-package version1.test;
+package major0.minor1.test;
 
-import version1.service.EmployeeService;
-import version1.vo.Engineer;
+import major0.minor1.service.EmployeeService;
+import major0.minor1.vo.Engineer;
 
 public class EmployeeServiceTest {
     public static void main(String[] args) {

@@ -1,9 +1,9 @@
-package version3.test;
+package major0.minor3.test;
 
-import version3.service.EmployeeListService;
-import version3.service.impl.MemoryEmployeeListService;
-import version3.vo.Engineer;
-import version3.vo.Manager;
+import major0.minor3.service.EmployeeListService;
+import major0.minor3.service.impl.MemoryEmployeeListService;
+import major0.minor3.vo.Engineer;
+import major0.minor3.vo.Manager;
 
 public class EmployeeListServiceTest {
 	//1. Service

@@ -1,4 +1,4 @@
-package version3.vo;
+package major0.minor2.vo;
 
 import java.util.Objects;
 

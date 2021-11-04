@@ -1,11 +1,11 @@
-## 상속(version2)
+## 상속(major0.minor2)
 
 * 클래스 간의 계층적 관계를 구성한다.
 * 높은 코드 재활용성을 제공한다.
 
 <br>
 
-상속은 구현상속(implementation version2) 과 인터페이스 상속(interface version2)로 분류가능하다.
+상속은 구현상속(implementation major0.minor2) 과 인터페이스 상속(interface major0.minor2)로 분류가능하다.
 
 1. 구현상속(subclassing)
 
