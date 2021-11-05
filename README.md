@@ -21,8 +21,8 @@
 * ### ver 0.4.0
 
   - [x] [Layered Architecture Pattern](./documents/layeredpattern.md)
-  
-  - [ ] [Database](./documents/database.md)
+  - [x] [Database](./documents/database.md)
+  - [ ] Exception
 
 <br>
 
