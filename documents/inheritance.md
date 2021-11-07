@@ -91,7 +91,7 @@ public class Cat extends{
    ((Cat) animal).meow();
     ```
 
-2.  Virtual method invocation
+2. Virtual method invocation
    
    컴파일 시점에는 참조변수 타입 클래스의 메서드가 호출된다.
    
