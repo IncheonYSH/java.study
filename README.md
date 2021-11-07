@@ -16,13 +16,13 @@
 * ### ver 0.3.0
   
   * [x] [Polymorphism](./documents/polymorphism.md)
-  * [ ] [Java Collection Api](./documents/collection.md)
+  * [x] [Java Collection Api](./documents/collection.md)
   
 * ### ver 0.4.0
 
   - [x] [Layered Architecture Pattern](./documents/layeredpattern.md)
   - [x] [Database](./documents/database.md)
-  - [ ] Exception
+  - [x] [Exception](./documents/exception.md)
 
 <br>
 

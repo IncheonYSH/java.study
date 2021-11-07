@@ -18,7 +18,13 @@ public class Engineer extends Employee {
 		return bonus;
 	}
 	
-	
+	public void setTech(String tech) {
+        this.tech = tech;
+    }
+
+	public void setBonus(int bonus) {
+        this.bonus = bonus;
+    }
 
 	public void changeTech(String tech) {
 		this.tech = tech;

@@ -30,7 +30,7 @@ public class EmployeeServiceDaoImpl implements EmployeeServiceDao {
     private final Connector connector = new MariadbConnector();
 
     // close 메서드는 private 으로 선언하고, 각각의 메서드에서 호출하도록 한다. 인터페이스에 정의하지 않는다.
-    // 필드와 어떠한 관련도 없이 그저 가독성과 유지보수성을 위해 선언한 메서드이기 때문이다.
+    // 필드와 어떠한 관련도 없이 그저 가독성을 높이고 코드 중복을 피하기 위해서 선언한 메서드이기 때문이다.
     private void closeAll(PreparedStatement ps, Connection conn) throws SQLException {
         if (ps != null) {
             ps.close();

@@ -12,11 +12,13 @@ public class Manager extends Employee {
 		return dept;
 	}
 
-
 	public void changeDept(String dept) {
 		this.dept = dept;
 	}
 
+	public void setDept(String dept) {
+		this.dept = dept;
+	}
 
 	@Override
 	public String toString() {

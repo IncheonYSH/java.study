@@ -12,42 +12,6 @@ public class Employee {
 	
 	public Employee() {	}
 
-	@Override
-	public int hashCode() {
-		return Objects.hash(id, name, addr, salary, employeeType);
-	}
-
-	@Override
-	public boolean equals(Object obj) {
-		if (this == obj)
-            return true;
-        if (obj == null)
-            return false;
-        if (getClass() != obj.getClass())
-            return false;
-        Employee other = (Employee) obj;
-        if (id != other.id)
-            return false;
-        if (name == null) {
-            if (other.name != null)
-                return false;
-        } else if (!name.equals(other.name))
-            return false;
-        if (addr == null) {
-            if (other.addr != null)
-                return false;
-        } else if (!addr.equals(other.addr))
-            return false;
-        if (salary != other.salary)
-            return false;
-        if (employeeType == null) {
-            if (other.employeeType != null)
-                return false;
-        } else if (!employeeType.equals(other.employeeType))
-            return false;
-        return true;
-    }
-
 	public Employee(long empId, String name, String addr, int salary, String employeeType) {
 		super();
 		this.id = empId;
