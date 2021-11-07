@@ -102,5 +102,4 @@ Cat cat = new Cat();
     ```shell
    Cat eat #animal eat 이 출력되지않는다. Virtual method invocation 가 발생했다.
    애옹 #명시적 downcasting 이 일어났다.
- ```
-   
+    ```
