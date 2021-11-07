@@ -92,13 +92,13 @@ public class Cat extends{
     ```
 
 2.  Virtual method invocation
-
+   
    컴파일 시점에는 참조변수 타입 클래스의 메서드가 호출된다.
-
+   
    런타임 시점에서는 참조변수가 실제로 참조하는 인스턴스의 메서드가 호출된다(없으면 그 바로 위 부모 클래스의 메서드가 호출된다).
-
+   
    따라서 위 코드들의 실행 결과는 다음과 같다.
-
+   
     ```shell
    Cat eat #animal eat 이 출력되지않는다. Virtual method invocation 가 발생했다.
    애옹 #명시적 downcasting 이 일어났다.
