@@ -68,7 +68,7 @@ public class Cat extends{
 1. Type casting
 
     ```java
-Cat cat = new Cat();
+   Cat cat = new Cat();
    Animal animal = cat;
    animal.eat();
    ```
